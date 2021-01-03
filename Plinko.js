@@ -16,7 +16,7 @@ class Plinko {
       translate(pos.x,pos.y);
       noStroke();
       ellipseMode(RADIUS);
-      fill(255,0);
+      fill("white");
       ellipse(0, 0, this.radius, this.radius);
       pop();
     }
